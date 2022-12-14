@@ -28,6 +28,7 @@
   --buttons-color: #f5f4fa;
 
   --white-color: #ffffff;
+  --grey-color: #afb1b8;
 }
 
 body {
@@ -161,6 +162,7 @@ body {
 }
 
 .address {
+  display: inline;
   font-style: normal;
   text-decoration: none;
   font-size: 14px;
@@ -173,6 +175,10 @@ body {
 
 .studio {
   color: var(--white-color);
+}
+.footer-boxes {
+  display: inline;
+  flex-direction: column;
 }
 
 /*DESIGN*/
@@ -306,7 +312,125 @@ li {
 .pick {
   padding: 0 0 20px 20px;
 }
-.envelop{ display: flex;
-justify-content:;
 
-margin-bottom: ;}
+/*vector design*/
+/*heder*/
+.con-icons {
+  margin-right: 10px;
+}
+.con-icons :hover,
+.con-icons :focus {
+  fill: var(--web-color-blue);
+  border: 1px solid var(--web-color-blue);
+  outline: none;
+}
+
+/*order*/
+
+.icons {
+  justify-content: center;
+  border-radius: 4px;
+}
+.rectangele {
+  padding: 25px 102px;
+}
+
+/* Team*/
+.soc-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 6px;
+  padding-bottom: 30px;
+}
+
+.soc-team {
+  fill: var(--grey-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.soc-team:focus,
+.soc-team:hover {
+  fill: var(--white-color);
+  background-color: var(--web-color-blue);
+  outline: none;
+}
+
+/* costumers*/
+
+.clients {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0px;
+  gap: 30px;
+}
+
+.company {
+  border: 1px solid #afb1b8;
+
+  border-radius: 4px;
+  fill: #afb1b8;
+  padding: 18px 32px 15px 32px;
+}
+
+.company:hover,
+.company:focus {
+  fill: var(--web-color-blue);
+  border: 1px solid var(--web-color-blue);
+  border-radius: 4px;
+}
+
+/*footer join*/
+
+.footer-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-range {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 70px;
+  padding-top: 72px;
+  fill: rgba(255, 255, 255, 0.1);
+}
+
+.social-range p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin: 0px;
+}
+
+.join-to {
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.icons-footer {
+  border-radius: 50%;
+  fill: var(--white-color);
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.icons-footer:hover,
+.icons-footer:focus {
+  fill: var(--white-color);
+  border-radius: 50%;
+  background-color: var(--web-color-blue);
+  outline: none;
+}
