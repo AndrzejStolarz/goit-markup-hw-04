@@ -157,7 +157,7 @@ body {
 }
 
 .downline-footer {
-  padding: 60px 0;
+  padding-top: 60px;
   background: var(--backgtound-color-grey);
 }
 
@@ -175,10 +175,6 @@ body {
 
 .studio {
   color: var(--white-color);
-}
-.footer-boxes {
-  display: inline;
-  flex-direction: column;
 }
 
 /*DESIGN*/
@@ -394,9 +390,6 @@ li {
 }
 
 .social-range {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
   padding-left: 70px;
   padding-top: 72px;
   fill: rgba(255, 255, 255, 0.1);
@@ -433,4 +426,9 @@ li {
   border-radius: 50%;
   background-color: var(--web-color-blue);
   outline: none;
+}
+.join-position {
+  position: relative;
+  left: 531px;
+  bottom: 163px;
 }
