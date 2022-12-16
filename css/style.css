@@ -157,7 +157,7 @@ body {
 }
 
 .downline-footer {
-  padding-top: 60px;
+  padding: 60px 0;
   background: var(--backgtound-color-grey);
 }
 
@@ -384,20 +384,25 @@ li {
 
 /*footer join*/
 
-/*.footer-boxes {
-  display: flex;
-  justify-content: space-between;
-}*/
+ 
+.footer-boxs {
+  display:flex;
+  justify-content:center;
+  
+  align-items:center
+
+}
 
 .social-range {
-
-  
- padding-left: 70px;
+ 
+  flex-direction: column;
+  padding-left: 70px;
   padding-top: 72px;
-  fill: rgba(255, 255, 255, 0.1);
+  
 }
 
 .social-range p {
+  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -429,13 +434,3 @@ li {
   background-color: var(--web-color-blue);
   outline: none;
 }
-.join-position {
-  position: relative;
-  left: 531px;
-  bottom: 163px;
-}
-
-
-.test{ display: inline-flex;
-}
-.test:last-child{ justify-content: center;}
