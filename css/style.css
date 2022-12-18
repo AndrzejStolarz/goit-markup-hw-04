@@ -425,6 +425,5 @@ li {
   fill: var(--white-color);
   border-radius: 50%;
   background-color: var(--web-color-blue);
-  outline: none;
-}
+  outline: none;}
 
