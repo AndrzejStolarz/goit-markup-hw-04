@@ -35,7 +35,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--main-color-black);
 }
-
+/*header*/
 .logo {
   color: var(--main-color-black);
   font-family: "Raleway";
@@ -53,14 +53,16 @@ body {
   color: var(--web-color-blue);
 }
 
+
 .title-background {
   background: var(--backgtound-color-grey);
-  background-image: url(/images/people.jpg), url(/images/people.jpg);
+  background-image: url(/images/people.jpg), url(/images/);
   background-image: linear-gradient(#2f303a66 40%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 
 .menu {
   color: inherit;
@@ -69,9 +71,12 @@ body {
 
 .add-menu:hover {
   color: var(--web-color-blue);
+  fill: var(--web-color-blue);
+  
 }
 .link-menu:focus {
   color: var(--web-color-blue);
+  fill: var(--web-color-blue);
 }
 .mail {
   color: var(--mail-color);
@@ -88,11 +93,13 @@ body {
 .button-act:focus {
   color: var(--white-color);
   background-color: var(--web-color-blue);
-}
+  }
 
 .btn:hover {
   color: var(--white-color);
   background-color: var(--web-color-blue);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .title {
   font-size: 44px;
@@ -125,6 +132,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
+  padding-top: 30px;
 }
 .name {
   font-size: 16px;
@@ -246,7 +254,7 @@ li {
   margin: auto;
 }
 
-.description {
+.descripti {
   display: flex;
   justify-content: space-between;
   column-gap: 30px;
@@ -294,7 +302,11 @@ li {
 
 .portfolio-net {
   flex-wrap: wrap;
+
+  
 }
+.portfolio-box{ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;}
 .frame {
   width: ((100%-180px)/12);
 }
@@ -314,20 +326,31 @@ li {
 .con-icons {
   margin-right: 10px;
 }
-.con-icons :hover,
-.con-icons :focus {
-  fill: var(--web-color-blue);
-  border: 1px solid var(--web-color-blue);
-  outline: none;
-}
+
+
 
 /*order*/
 
 .icons {
   justify-content: center;
-  border-radius: 4px;
-}
-.rectangele {
+  border-radius: 4px;}
+
+.symbol{ 
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+.symbol div{ background-color: var(--buttons-color)}
+
+.symbol div svg {
+  margin: 25px 100px;}
+
+.rectangel {
   padding: 25px 102px;
 }
 
