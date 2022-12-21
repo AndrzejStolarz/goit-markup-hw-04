@@ -55,7 +55,7 @@ body {
 
 .photo {
   background: var(--backgtound-color-grey);
-  background-image: url(/images/people.jpg), url(./images/people.jpg);
+  background-image: url(/images/people.jpg), url(/images/people.jpg);
   background-image: linear-gradient(#2f303a66 40%);
   background-repeat: no-repeat;
   background-position: center;
