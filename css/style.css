@@ -349,16 +349,9 @@ margin: 0; }
 
 .symbol div{ background-color: var(--buttons-color)}
 
-.symbol div svg {
-  margin: 25px 100px;}
-
+.symbol div svg {margin: 25px 100px;}
 
 .symbol div{ background-color: var(--buttons-color)}
-
-.symbol div svg {
-  margin: 25px 100px;
-
-}
 
 
 /* Team*/
