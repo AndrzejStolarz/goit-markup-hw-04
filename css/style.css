@@ -53,14 +53,6 @@ body {
   color: var(--web-color-blue);
 }
 
-.title-background {
-  background: var(--backgtound-color-gr);
-  background-image: url(/images/img10.jpg), url(./images/people.jpg);
-  background-image: linear-gradient(#2f303a66 40%);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
 .menu {
   color: inherit;
