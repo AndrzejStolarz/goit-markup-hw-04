@@ -29,7 +29,6 @@
 
   --white-color: #ffffff;
   --grey-color: #afb1b8;
- 
 }
 
 body {
@@ -54,16 +53,14 @@ body {
   color: var(--web-color-blue);
 }
 
-
 .title-background {
   background: var(--backgtound-color-grey);
-  background-image: url(./images/people.jpg), url(./images/people.jpg);
+  background-image: url(/images/people.jpg), url(/images/people.jpg);
   background-image: linear-gradient(#2f303a66 40%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-
 
 .menu {
   color: inherit;
@@ -73,7 +70,6 @@ body {
 .add-menu:hover {
   color: var(--web-color-blue);
   fill: var(--web-color-blue);
-  
 }
 .link-menu:focus {
   color: var(--web-color-blue);
@@ -94,12 +90,13 @@ body {
 .button-act:focus {
   color: var(--white-color);
   background-color: var(--web-color-blue);
-  }
+}
 
 .btn:hover {
   color: var(--white-color);
   background-color: var(--web-color-blue);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 .title {
@@ -303,11 +300,12 @@ li {
 
 .portfolio-net {
   flex-wrap: wrap;
-
-  
 }
-.portfolio-box{ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;}
+.portfolio-box {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
 .frame {
   width: ((100%-180px)/12);
 }
@@ -328,31 +326,33 @@ li {
   margin-right: 10px;
 }
 
-
-
 /*order*/
 
 .icons {
   justify-content: center;
-  border-radius: 4px;}
+  border-radius: 4px;
+}
 
-  
 .symbol {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
 
-list-style: none;
-display: flex;
-gap: 30px;
-align-items: center;
-padding: 0;
-margin: 0; }
-  
+.symbol div {
+  background-color: var(--buttons-color);
+}
 
-.symbol div{ background-color: var(--buttons-color)}
+.symbol div svg {
+  margin: 25px 100px;
+}
 
-.symbol div svg {margin: 25px 100px;}
-
-.symbol div{ background-color: var(--buttons-color)}
-
+.symbol div {
+  background-color: var(--buttons-color);
+}
 
 /* Team*/
 .soc-media {
@@ -413,9 +413,8 @@ margin: 0; }
 }
 
 .social-range {
-  
   padding-left: 70px;
-  padding-top: 7
+  padding-top: 7;
 }
 
 .social-range p {
@@ -433,7 +432,7 @@ margin: 0; }
   display: inline-flex;
   justify-content: center;
   gap: 10px;
-  padding-top: 20px;
+  padding-top: 
 }
 
 .icons-footer {
@@ -448,5 +447,5 @@ margin: 0; }
   fill: var(--white-color);
   border-radius: 50%;
   background-color: var(--web-color-blue);
-  outline: none;}
-
+  outline: none;
+}
