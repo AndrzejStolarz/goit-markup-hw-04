@@ -243,7 +243,7 @@ li {
 .photo {
   background: var(--backgtound-color-grey);
   background-image:  linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url(../images/people.jpg);
-  min-width: 1600px;
+  max-width: 1600px;
   margin: 0;
   background-repeat: no-repeat;
   background-position: center;
