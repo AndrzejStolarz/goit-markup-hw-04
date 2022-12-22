@@ -56,7 +56,8 @@ body {
 .photo {
   background: var(--backgtound-color-grey);
   background-image:  linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url(../images/people.jpg), url(../images/people.jpg);
-  
+  min-width: 1600px;
+  margin: 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -137,6 +138,7 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-top: 30px;
 }
 
 .areas {
@@ -273,6 +275,7 @@ li {
   display: flex;
   gap: 30px;
   justify-content: center;
+
 }
 
 .member-team {
@@ -281,6 +284,7 @@ li {
     0px 1px 3px 0px #0000001f;
   width: ((100%-90px)/4);
   border-radius: 0px 0px 4px 4px;
+ ;
 }
 .under {
   padding-bottom: 30px;
@@ -300,12 +304,13 @@ li {
 
 .portfolio-net {
   flex-wrap: wrap;
+
 }
-.portfolio-box {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+.portfolio-net figure:hover,
+.portfolio-net figure:focus { box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+ 
 }
+
 .frame {
   width: ((100%-180px)/12);
 }
