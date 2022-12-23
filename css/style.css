@@ -248,7 +248,7 @@ li {
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-clip:inherit;
 }
 
