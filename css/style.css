@@ -102,6 +102,7 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--white-color);
+  margin-bottom: 30px;
 }
 
 .lorem {
@@ -249,7 +250,7 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-clip:inherit;
+  
 }
 
 
@@ -265,12 +266,7 @@ li {
   margin: auto;
 }
 
-.descripti {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 30px;
-  list-style: none;
-}
+
 
 .random {
   display: flex;
