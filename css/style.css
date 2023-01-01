@@ -10,6 +10,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  padding: 0 15px;
 }
 
 .section {
@@ -54,9 +55,13 @@ body {
   color: var(--web-color-blue);
 }
 
-.background-title {
-  text-align: center;
-  padding: 220px 0;
+.title-background {
+  background: var(--backgtound-color-grey);
+  background-image: url(/images/people.jpg), url(/images/people.jpg);
+  background-image: linear-gradient(#2f303a66 40%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .menu {
@@ -250,7 +255,7 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  
+  background-clip:inherit;
 }
 
 
@@ -266,7 +271,12 @@ li {
   margin: auto;
 }
 
-
+.descripti {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  list-style: none;
+}
 
 .random {
   display: flex;
@@ -459,5 +469,5 @@ li {
   fill: var(--white-color);
   border-radius: 50%;
   background-color: var(--web-color-blue);
-  outline: none;
-}
+  outline: none;}
+
